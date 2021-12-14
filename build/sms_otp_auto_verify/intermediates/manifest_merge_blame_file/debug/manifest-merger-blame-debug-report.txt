@@ -1,0 +1,29 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.oohyugi.sms_otp_auto_verify" >
+4
+5    <uses-sdk android:minSdkVersion="16" />
+5-->/home/charmides/Programs/flutter_sdk/flutter_linux_1.20.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/sms_otp_auto_verify-1.2.2/android/src/main/AndroidManifest.xml
+6
+7    <application>
+7-->/home/charmides/Programs/flutter_sdk/flutter_linux_1.20.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/sms_otp_auto_verify-1.2.2/android/src/main/AndroidManifest.xml:4:5-14:19
+8        <receiver
+8-->/home/charmides/Programs/flutter_sdk/flutter_linux_1.20.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/sms_otp_auto_verify-1.2.2/android/src/main/AndroidManifest.xml:5:9-13:20
+9            android:name="com.oohyugi.sms_otp_auto_verify.SmsBroadcastReceiver"
+9-->/home/charmides/Programs/flutter_sdk/flutter_linux_1.20.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/sms_otp_auto_verify-1.2.2/android/src/main/AndroidManifest.xml:6:13-49
+10            android:enabled="true"
+10-->/home/charmides/Programs/flutter_sdk/flutter_linux_1.20.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/sms_otp_auto_verify-1.2.2/android/src/main/AndroidManifest.xml:7:13-35
+11            android:exported="true"
+11-->/home/charmides/Programs/flutter_sdk/flutter_linux_1.20.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/sms_otp_auto_verify-1.2.2/android/src/main/AndroidManifest.xml:8:13-36
+12            android:permission="com.google.android.gms.auth.api.phone.permission.SEND" >
+12-->/home/charmides/Programs/flutter_sdk/flutter_linux_1.20.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/sms_otp_auto_verify-1.2.2/android/src/main/AndroidManifest.xml:9:13-87
+13            <intent-filter>
+13-->/home/charmides/Programs/flutter_sdk/flutter_linux_1.20.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/sms_otp_auto_verify-1.2.2/android/src/main/AndroidManifest.xml:10:13-12:29
+14                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVED" />
+14-->/home/charmides/Programs/flutter_sdk/flutter_linux_1.20.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/sms_otp_auto_verify-1.2.2/android/src/main/AndroidManifest.xml:11:17-94
+14-->/home/charmides/Programs/flutter_sdk/flutter_linux_1.20.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/sms_otp_auto_verify-1.2.2/android/src/main/AndroidManifest.xml:11:25-91
+15            </intent-filter>
+16        </receiver>
+17    </application>
+18
+19</manifest>

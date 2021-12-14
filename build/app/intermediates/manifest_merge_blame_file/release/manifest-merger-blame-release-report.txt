@@ -1,0 +1,772 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.chakula.app"
+4    android:versionCode="2"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:4:1-75
+11-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:4:18-72
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:5:5-64
+12-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:5:22-62
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:6:5-66
+13-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:6:22-64
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:7:5-80
+14-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:8:5-66
+15-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:8:22-63
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:9:5-68
+16-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:9:22-65
+17
+18    <uses-feature
+18-->[io.card:android-sdk:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/e837181b09987a2b2a4c3697546f1435/jetified-android-sdk-5.5.1/AndroidManifest.xml:12:5-14:36
+19        android:name="android.hardware.camera"
+19-->[io.card:android-sdk:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/e837181b09987a2b2a4c3697546f1435/jetified-android-sdk-5.5.1/AndroidManifest.xml:13:9-47
+20        android:required="false" />
+20-->[io.card:android-sdk:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/e837181b09987a2b2a4c3697546f1435/jetified-android-sdk-5.5.1/AndroidManifest.xml:14:9-33
+21    <uses-feature
+21-->[io.card:android-sdk:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/e837181b09987a2b2a4c3697546f1435/jetified-android-sdk-5.5.1/AndroidManifest.xml:15:5-17:36
+22        android:name="android.hardware.camera.autofocus"
+22-->[io.card:android-sdk:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/e837181b09987a2b2a4c3697546f1435/jetified-android-sdk-5.5.1/AndroidManifest.xml:16:9-57
+23        android:required="false" />
+23-->[io.card:android-sdk:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/e837181b09987a2b2a4c3697546f1435/jetified-android-sdk-5.5.1/AndroidManifest.xml:17:9-33
+24
+25    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+25-->[:location] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-81
+25-->[:location] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:7:22-78
+26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+26-->[:image_picker] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-80
+26-->[:image_picker] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:7:22-77
+27    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+27-->[:image_picker] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-81
+27-->[:image_picker] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:8:22-78
+28    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+28-->[com.google.android.gms:play-services-measurement:17.6.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/ce2afd3541f63cd155d79bfe33d3069d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:24:5-79
+28-->[com.google.android.gms:play-services-measurement:17.6.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/ce2afd3541f63cd155d79bfe33d3069d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:24:22-76
+29    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+29-->[com.google.android.gms:play-services-measurement:17.6.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/ce2afd3541f63cd155d79bfe33d3069d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:26:5-110
+29-->[com.google.android.gms:play-services-measurement:17.6.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/ce2afd3541f63cd155d79bfe33d3069d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:26:22-107
+30    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+30-->[com.google.firebase:firebase-iid:20.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/593cc34aec202285769680ac7fbcea6e/jetified-firebase-iid-20.3.0/AndroidManifest.xml:26:5-82
+30-->[com.google.firebase:firebase-iid:20.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/593cc34aec202285769680ac7fbcea6e/jetified-firebase-iid-20.3.0/AndroidManifest.xml:26:22-79
+31
+32    <uses-feature
+32-->[com.google.android.gms:play-services-maps:17.0.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/cc09f8152627283dcbf92d4ae91e3623/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+33        android:glEsVersion="0x00020000"
+33-->[com.google.android.gms:play-services-maps:17.0.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/cc09f8152627283dcbf92d4ae91e3623/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+34        android:required="true" />
+34-->[com.google.android.gms:play-services-maps:17.0.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/cc09f8152627283dcbf92d4ae91e3623/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+35    <!--
+36 io.flutter.app.FlutterApplication is an android.app.Application that
+37         calls FlutterMain.startInitialization(this); in its onCreate method.
+38         In most cases you can leave this as-is, but you if you want to provide
+39         additional functionality it is fine to subclass or reimplement
+40         FlutterApplication and put your custom class here.
+41    -->
+42    <!-- AIzaSyB93ViVy-fww-leOBtroda9hOmhYOp9qT0 -->
+43    <application
+43-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:18:5-94:19
+44        android:name="io.flutter.app.FlutterApplication"
+44-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:19:9-57
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.3.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/b067fe145b0fe7f2dc42a5bf349b3685/core-1.3.1/AndroidManifest.xml:24:18-86
+46        android:icon="@mipmap/launcher_icon"
+46-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:22:9-45
+47        android:label="Doobi Medical Laundry "
+47-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:20:9-47
+48        android:supportsRtl="true"
+48-->[com.facebook.android:facebook-login:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/0d555e0d6e7da6f1bafa9867564be4f7/jetified-facebook-login-5.5.1/AndroidManifest.xml:28:18-44
+49        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+49-->[:stripe_payment] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/stripe_payment/intermediates/merged_manifest/release/AndroidManifest.xml:9:18-74
+50        <meta-data
+50-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:23:9-24:66
+51            android:name="com.google.android.geo.API_KEY"
+51-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:23:20-65
+52            android:value="AIzaSyCEORGf8bOKBwHhh7L7gXqZe44qgkl3Ofw" />
+52-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:24:9-64
+53        <meta-data
+53-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:25:9-27:57
+54            android:name="com.google.firebase.messaging.default_notification_icon"
+54-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:26:9-79
+55            android:resource="@drawable/ic_stat_fastfood" />
+55-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:27:9-54
+56        <meta-data
+56-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:28:9-29:51
+57            android:name="com.google.firebase.messaging.default_notification_color"
+57-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:28:20-91
+58            android:resource="@android:color/black" />
+58-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:29:9-48
+59
+60        <activity
+60-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:31:9-49:20
+61            android:name="com.chakula.app.MainActivity"
+61-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:32:13-41
+62            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+62-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:35:13-144
+63            android:hardwareAccelerated="true"
+63-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:36:13-47
+64            android:launchMode="singleTop"
+64-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:33:13-43
+65            android:theme="@style/LaunchTheme"
+65-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:34:13-47
+66            android:windowSoftInputMode="adjustResize" >
+66-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:37:13-55
+67
+68            <!--
+69                 This keeps the window background of the activity showing
+70                 until Flutter renders its first frame. It can be removed if
+71                 there is no splash screen (such as the default splash screen
+72                 defined in @style/LaunchTheme).
+73            -->
+74            <meta-data
+74-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:42:13-44:40
+75                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+75-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:43:17-82
+76                android:value="true" />
+76-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:44:17-37
+77
+78            <intent-filter>
+78-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:45:13-48:29
+79                <action android:name="android.intent.action.MAIN" />
+79-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:46:17-68
+79-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:46:25-66
+80
+81                <category android:name="android.intent.category.LAUNCHER" />
+81-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:47:17-76
+81-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:47:27-74
+82            </intent-filter>
+83        </activity>
+84        <!-- This is for the Paypal payment -->
+85        <activity
+85-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:51:10-59:20
+86            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+86-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:51:20-91
+87            android:launchMode="singleTask" >
+87-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:52:13-44
+88            <intent-filter>
+88-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:53:13-58:29
+89                <action android:name="android.intent.action.VIEW" />
+89-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:54:17-69
+89-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:54:25-66
+90
+91                <category android:name="android.intent.category.DEFAULT" />
+91-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:55:17-76
+91-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:55:27-73
+92                <category android:name="android.intent.category.BROWSABLE" />
+92-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:56:17-78
+92-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:56:27-75
+93
+94                <data android:scheme="com.foodzone.product.braintree" />
+94-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:57:17-73
+94-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:57:23-70
+95            </intent-filter>
+96        </activity>
+97
+98        <meta-data
+98-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:61:9-99
+99            android:name="com.google.android.gms.wallet.api.enabled"
+99-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:61:20-76
+100            android:value="true" />
+100-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:61:77-97
+101
+102        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+102-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:62:10-107
+102-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:62:20-104
+103        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver" >
+103-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:63:9-68:20
+103-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:63:19-107
+104            <intent-filter>
+104-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:64:13-67:29
+105                <action android:name="android.intent.action.BOOT_COMPLETED" />
+105-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:65:17-78
+105-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:65:25-76
+106                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+106-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:66:17-83
+106-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:66:25-81
+107            </intent-filter>
+108        </receiver>
+109        <!-- Facebook Login configuration -->
+110        <meta-data
+110-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:70:9-71:46
+111            android:name="com.facebook.sdk.ApplicationId"
+111-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:70:20-65
+112            android:value="@string/facebook_app_id" />
+112-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:71:5-44
+113
+114        <activity
+114-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:73:1-76:40
+115            android:name="com.facebook.FacebookActivity"
+115-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:73:11-55
+116            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+116-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:74:5-101
+117            android:label="@string/app_name"
+117-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:76:5-37
+118            android:theme="@style/com_facebook_activity_theme" />
+118-->[com.facebook.android:facebook-common:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/5e1bfdd90c18f924af637739abe81318/jetified-facebook-common-5.5.1/AndroidManifest.xml:32:13-63
+119        <activity
+119-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:78:1-87:12
+120            android:name="com.facebook.CustomTabActivity"
+120-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:79:5-50
+121            android:exported="true" >
+121-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:80:5-28
+122            <intent-filter>
+122-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:81:5-86:21
+123                <action android:name="android.intent.action.VIEW" />
+123-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:54:17-69
+123-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:54:25-66
+124
+125                <category android:name="android.intent.category.DEFAULT" />
+125-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:55:17-76
+125-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:55:27-73
+126                <category android:name="android.intent.category.BROWSABLE" />
+126-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:56:17-78
+126-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:56:27-75
+127
+128                <data android:scheme="@string/fb_login_protocol_scheme" />
+128-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:57:17-73
+128-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:57:23-70
+129            </intent-filter>
+130        </activity>
+131        <!--
+132     Don't delete the meta-data below.
+133             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+134        -->
+135        <meta-data
+135-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:90:9-92:33
+136            android:name="flutterEmbedding"
+136-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:91:13-44
+137            android:value="2" />
+137-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:92:13-30
+138        <meta-data
+138-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:61:9-99
+139            android:name="com.google.android.gms.wallet.api.enabled"
+139-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:61:20-76
+140            android:value="true" />
+140-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:61:77-97
+141
+142        <activity
+142-->[:stripe_payment] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/stripe_payment/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-18:75
+143            android:name="com.gettipsi.stripe.OpenBrowserActivity"
+143-->[:stripe_payment] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/stripe_payment/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-67
+144            android:exported="false"
+144-->[:stripe_payment] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/stripe_payment/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+145            android:launchMode="singleTask"
+145-->[:stripe_payment] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/stripe_payment/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-44
+146            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+146-->[:stripe_payment] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/stripe_payment/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-72
+147        <activity
+147-->[:stripe_payment] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/stripe_payment/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-32:20
+148            android:name="com.gettipsi.stripe.RedirectUriReceiver"
+148-->[:stripe_payment] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/stripe_payment/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-67
+149            android:exported="true"
+149-->[:stripe_payment] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/stripe_payment/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-36
+150            android:launchMode="singleTask"
+150-->[:stripe_payment] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/stripe_payment/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-44
+151            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+151-->[:stripe_payment] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/stripe_payment/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-83
+152            <intent-filter>
+152-->[:stripe_payment] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/stripe_payment/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-31:29
+153                <action android:name="android.intent.action.VIEW" />
+153-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:54:17-69
+153-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:54:25-66
+154
+155                <category android:name="android.intent.category.DEFAULT" />
+155-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:55:17-76
+155-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:55:27-73
+156                <category android:name="android.intent.category.BROWSABLE" />
+156-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:56:17-78
+156-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:56:27-75
+157
+158                <data android:scheme="example" />
+158-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:57:17-73
+158-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:57:23-70
+159            </intent-filter>
+160        </activity>
+161
+162        <receiver
+162-->[:sms_otp_auto_verify] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/sms_otp_auto_verify/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-16:20
+163            android:name="com.oohyugi.sms_otp_auto_verify.SmsBroadcastReceiver"
+163-->[:sms_otp_auto_verify] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/sms_otp_auto_verify/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-80
+164            android:enabled="true"
+164-->[:sms_otp_auto_verify] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/sms_otp_auto_verify/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-35
+165            android:exported="true"
+165-->[:sms_otp_auto_verify] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/sms_otp_auto_verify/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-36
+166            android:permission="com.google.android.gms.auth.api.phone.permission.SEND" >
+166-->[:sms_otp_auto_verify] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/sms_otp_auto_verify/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-87
+167            <intent-filter>
+167-->[:sms_otp_auto_verify] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/sms_otp_auto_verify/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-15:29
+168                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVED" />
+168-->[:sms_otp_auto_verify] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/sms_otp_auto_verify/intermediates/merged_manifest/release/AndroidManifest.xml:14:17-94
+168-->[:sms_otp_auto_verify] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/sms_otp_auto_verify/intermediates/merged_manifest/release/AndroidManifest.xml:14:25-91
+169            </intent-filter>
+170        </receiver>
+171
+172        <activity
+172-->[com.stripe:stripe-android:10.4.6] /home/charmides/.gradle/caches/transforms-2/files-2.1/963c4736bad67bc3d98ef29e489f6852/jetified-stripe-android-10.4.6/AndroidManifest.xml:12:9-14:57
+173            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+173-->[com.stripe:stripe-android:10.4.6] /home/charmides/.gradle/caches/transforms-2/files-2.1/963c4736bad67bc3d98ef29e489f6852/jetified-stripe-android-10.4.6/AndroidManifest.xml:13:13-76
+174            android:theme="@style/StripeDefaultTheme" />
+174-->[com.stripe:stripe-android:10.4.6] /home/charmides/.gradle/caches/transforms-2/files-2.1/963c4736bad67bc3d98ef29e489f6852/jetified-stripe-android-10.4.6/AndroidManifest.xml:14:13-54
+175        <activity
+175-->[com.stripe:stripe-android:10.4.6] /home/charmides/.gradle/caches/transforms-2/files-2.1/963c4736bad67bc3d98ef29e489f6852/jetified-stripe-android-10.4.6/AndroidManifest.xml:15:9-17:57
+176            android:name="com.stripe.android.view.PaymentMethodsActivity"
+176-->[com.stripe:stripe-android:10.4.6] /home/charmides/.gradle/caches/transforms-2/files-2.1/963c4736bad67bc3d98ef29e489f6852/jetified-stripe-android-10.4.6/AndroidManifest.xml:16:13-74
+177            android:theme="@style/StripeDefaultTheme" />
+177-->[com.stripe:stripe-android:10.4.6] /home/charmides/.gradle/caches/transforms-2/files-2.1/963c4736bad67bc3d98ef29e489f6852/jetified-stripe-android-10.4.6/AndroidManifest.xml:17:13-54
+178        <activity
+178-->[com.stripe:stripe-android:10.4.6] /home/charmides/.gradle/caches/transforms-2/files-2.1/963c4736bad67bc3d98ef29e489f6852/jetified-stripe-android-10.4.6/AndroidManifest.xml:18:9-20:57
+179            android:name="com.stripe.android.view.PaymentFlowActivity"
+179-->[com.stripe:stripe-android:10.4.6] /home/charmides/.gradle/caches/transforms-2/files-2.1/963c4736bad67bc3d98ef29e489f6852/jetified-stripe-android-10.4.6/AndroidManifest.xml:19:13-71
+180            android:theme="@style/StripeDefaultTheme" />
+180-->[com.stripe:stripe-android:10.4.6] /home/charmides/.gradle/caches/transforms-2/files-2.1/963c4736bad67bc3d98ef29e489f6852/jetified-stripe-android-10.4.6/AndroidManifest.xml:20:13-54
+181        <activity
+181-->[com.stripe:stripe-android:10.4.6] /home/charmides/.gradle/caches/transforms-2/files-2.1/963c4736bad67bc3d98ef29e489f6852/jetified-stripe-android-10.4.6/AndroidManifest.xml:21:9-23:57
+182            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+182-->[com.stripe:stripe-android:10.4.6] /home/charmides/.gradle/caches/transforms-2/files-2.1/963c4736bad67bc3d98ef29e489f6852/jetified-stripe-android-10.4.6/AndroidManifest.xml:22:13-78
+183            android:theme="@style/StripeDefaultTheme" />
+183-->[com.stripe:stripe-android:10.4.6] /home/charmides/.gradle/caches/transforms-2/files-2.1/963c4736bad67bc3d98ef29e489f6852/jetified-stripe-android-10.4.6/AndroidManifest.xml:23:13-54
+184        <activity
+184-->[com.stripe:stripe-android:10.4.6] /home/charmides/.gradle/caches/transforms-2/files-2.1/963c4736bad67bc3d98ef29e489f6852/jetified-stripe-android-10.4.6/AndroidManifest.xml:24:9-26:57
+185            android:name="com.stripe.android.view.PaymentRelayActivity"
+185-->[com.stripe:stripe-android:10.4.6] /home/charmides/.gradle/caches/transforms-2/files-2.1/963c4736bad67bc3d98ef29e489f6852/jetified-stripe-android-10.4.6/AndroidManifest.xml:25:13-72
+186            android:theme="@style/StripeDefaultTheme" />
+186-->[com.stripe:stripe-android:10.4.6] /home/charmides/.gradle/caches/transforms-2/files-2.1/963c4736bad67bc3d98ef29e489f6852/jetified-stripe-android-10.4.6/AndroidManifest.xml:26:13-54
+187        <activity
+187-->[com.stripe:stripe-3ds2-android:1.2.2] /home/charmides/.gradle/caches/transforms-2/files-2.1/38b796fa7668b06b956e06cb0aae4877/jetified-stripe-3ds2-android-1.2.2/AndroidManifest.xml:12:9-14:54
+188            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+188-->[com.stripe:stripe-3ds2-android:1.2.2] /home/charmides/.gradle/caches/transforms-2/files-2.1/38b796fa7668b06b956e06cb0aae4877/jetified-stripe-3ds2-android-1.2.2/AndroidManifest.xml:13:13-81
+189            android:theme="@style/Stripe3DS2Theme" />
+189-->[com.stripe:stripe-3ds2-android:1.2.2] /home/charmides/.gradle/caches/transforms-2/files-2.1/38b796fa7668b06b956e06cb0aae4877/jetified-stripe-3ds2-android-1.2.2/AndroidManifest.xml:14:13-51
+190        <activity
+190-->[com.stripe:stripe-3ds2-android:1.2.2] /home/charmides/.gradle/caches/transforms-2/files-2.1/38b796fa7668b06b956e06cb0aae4877/jetified-stripe-3ds2-android-1.2.2/AndroidManifest.xml:15:9-17:54
+191            android:name="com.stripe.android.stripe3ds2.views.ChallengeProgressDialogActivity"
+191-->[com.stripe:stripe-3ds2-android:1.2.2] /home/charmides/.gradle/caches/transforms-2/files-2.1/38b796fa7668b06b956e06cb0aae4877/jetified-stripe-3ds2-android-1.2.2/AndroidManifest.xml:16:13-95
+192            android:theme="@style/Stripe3DS2Theme" />
+192-->[com.stripe:stripe-3ds2-android:1.2.2] /home/charmides/.gradle/caches/transforms-2/files-2.1/38b796fa7668b06b956e06cb0aae4877/jetified-stripe-3ds2-android-1.2.2/AndroidManifest.xml:17:13-51
+193
+194        <service
+194-->[:firebase_auth] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-12:19
+195            android:name="com.google.firebase.components.ComponentDiscoveryService"
+195-->[:firebase_auth] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:8:18-89
+196            android:directBootAware="true"
+196-->[com.google.firebase:firebase-common:19.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/eeef5cbcb3f6e22f46f25fb59c55f104/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+197            android:exported="false" >
+197-->[com.google.firebase:firebase-messaging:20.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/9d13a628672c5fa3a77c970d3612813c/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:38:13-37
+198            <meta-data
+198-->[:firebase_auth] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:85
+199                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+199-->[:firebase_auth] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-124
+200                android:value="com.google.firebase.components.ComponentRegistrar" />
+200-->[:firebase_auth] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:17-82
+201            <meta-data
+201-->[:firebase_core] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:85
+202                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+202-->[:firebase_core] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-124
+203                android:value="com.google.firebase.components.ComponentRegistrar" />
+203-->[:firebase_core] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:17-82
+204            <meta-data
+204-->[:firebase_messaging] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-16:85
+205                android:name="com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar"
+205-->[:firebase_messaging] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:15:17-127
+206                android:value="com.google.firebase.components.ComponentRegistrar" />
+206-->[:firebase_messaging] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-82
+207            <meta-data
+207-->[com.google.firebase:firebase-messaging:20.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/9d13a628672c5fa3a77c970d3612813c/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:39:13-41:85
+208                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+208-->[com.google.firebase:firebase-messaging:20.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/9d13a628672c5fa3a77c970d3612813c/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:40:17-119
+209                android:value="com.google.firebase.components.ComponentRegistrar" />
+209-->[com.google.firebase:firebase-messaging:20.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/9d13a628672c5fa3a77c970d3612813c/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:41:17-82
+210            <meta-data
+210-->[com.google.android.gms:play-services-measurement-api:17.6.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/b8717e8129941a3505d9e1d26ac65a4d/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:30:13-32:85
+211                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+211-->[com.google.android.gms:play-services-measurement-api:17.6.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/b8717e8129941a3505d9e1d26ac65a4d/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:31:17-139
+212                android:value="com.google.firebase.components.ComponentRegistrar" />
+212-->[com.google.android.gms:play-services-measurement-api:17.6.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/b8717e8129941a3505d9e1d26ac65a4d/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:32:17-82
+213            <meta-data
+213-->[com.google.firebase:firebase-iid:20.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/593cc34aec202285769680ac7fbcea6e/jetified-firebase-iid-20.3.0/AndroidManifest.xml:32:13-34:85
+214                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+214-->[com.google.firebase:firebase-iid:20.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/593cc34aec202285769680ac7fbcea6e/jetified-firebase-iid-20.3.0/AndroidManifest.xml:33:17-96
+215                android:value="com.google.firebase.components.ComponentRegistrar" />
+215-->[com.google.firebase:firebase-iid:20.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/593cc34aec202285769680ac7fbcea6e/jetified-firebase-iid-20.3.0/AndroidManifest.xml:34:17-82
+216            <meta-data
+216-->[com.google.firebase:firebase-auth:19.4.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/b0b0ea42056e33ed02dd5d3ecf791d5c/jetified-firebase-auth-19.4.0/AndroidManifest.xml:36:13-38:85
+217                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+217-->[com.google.firebase:firebase-auth:19.4.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/b0b0ea42056e33ed02dd5d3ecf791d5c/jetified-firebase-auth-19.4.0/AndroidManifest.xml:37:17-109
+218                android:value="com.google.firebase.components.ComponentRegistrar" />
+218-->[com.google.firebase:firebase-auth:19.4.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/b0b0ea42056e33ed02dd5d3ecf791d5c/jetified-firebase-auth-19.4.0/AndroidManifest.xml:38:17-82
+219            <meta-data
+219-->[com.google.firebase:firebase-datatransport:17.0.3] /home/charmides/.gradle/caches/transforms-2/files-2.1/99851e422958027e67a52a202909f250/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+220                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+220-->[com.google.firebase:firebase-datatransport:17.0.3] /home/charmides/.gradle/caches/transforms-2/files-2.1/99851e422958027e67a52a202909f250/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+221                android:value="com.google.firebase.components.ComponentRegistrar" />
+221-->[com.google.firebase:firebase-datatransport:17.0.3] /home/charmides/.gradle/caches/transforms-2/files-2.1/99851e422958027e67a52a202909f250/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+222            <meta-data
+222-->[com.google.firebase:firebase-installations:16.3.3] /home/charmides/.gradle/caches/transforms-2/files-2.1/37486576f2480065b99044ff7792ef48/jetified-firebase-installations-16.3.3/AndroidManifest.xml:17:13-19:85
+223                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+223-->[com.google.firebase:firebase-installations:16.3.3] /home/charmides/.gradle/caches/transforms-2/files-2.1/37486576f2480065b99044ff7792ef48/jetified-firebase-installations-16.3.3/AndroidManifest.xml:18:17-127
+224                android:value="com.google.firebase.components.ComponentRegistrar" />
+224-->[com.google.firebase:firebase-installations:16.3.3] /home/charmides/.gradle/caches/transforms-2/files-2.1/37486576f2480065b99044ff7792ef48/jetified-firebase-installations-16.3.3/AndroidManifest.xml:19:17-82
+225        </service>
+226
+227        <activity android:name="com.facebook.CustomTabMainActivity" />
+227-->[com.facebook.android:facebook-common:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/5e1bfdd90c18f924af637739abe81318/jetified-facebook-common-5.5.1/AndroidManifest.xml:33:9-71
+227-->[com.facebook.android:facebook-common:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/5e1bfdd90c18f924af637739abe81318/jetified-facebook-common-5.5.1/AndroidManifest.xml:33:19-68
+228        <activity
+228-->[io.card:android-sdk:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/e837181b09987a2b2a4c3697546f1435/jetified-android-sdk-5.5.1/AndroidManifest.xml:20:9-22:66
+229            android:name="io.card.payment.CardIOActivity"
+229-->[io.card:android-sdk:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/e837181b09987a2b2a4c3697546f1435/jetified-android-sdk-5.5.1/AndroidManifest.xml:21:13-58
+230            android:configChanges="keyboardHidden|orientation" />
+230-->[io.card:android-sdk:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/e837181b09987a2b2a4c3697546f1435/jetified-android-sdk-5.5.1/AndroidManifest.xml:22:13-63
+231        <activity android:name="io.card.payment.DataEntryActivity" />
+231-->[io.card:android-sdk:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/e837181b09987a2b2a4c3697546f1435/jetified-android-sdk-5.5.1/AndroidManifest.xml:23:9-70
+231-->[io.card:android-sdk:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/e837181b09987a2b2a4c3697546f1435/jetified-android-sdk-5.5.1/AndroidManifest.xml:23:19-67
+232
+233        <service android:name="io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService" >
+233-->[:firebase_messaging] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-12:19
+233-->[:firebase_messaging] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:8:18-101
+234            <intent-filter>
+234-->[:firebase_messaging] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:29
+235                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+235-->[:firebase_messaging] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-78
+235-->[:firebase_messaging] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:25-75
+236            </intent-filter>
+237        </service>
+238        <!--
+239             FirebaseMessagingService performs security checks at runtime,
+240             but set to not exported to explicitly avoid allowing another app to call it.
+241        -->
+242        <service
+242-->[com.google.firebase:firebase-messaging:20.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/9d13a628672c5fa3a77c970d3612813c/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:28:9-35:19
+243            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+243-->[com.google.firebase:firebase-messaging:20.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/9d13a628672c5fa3a77c970d3612813c/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:29:13-82
+244            android:directBootAware="true"
+244-->[com.google.firebase:firebase-messaging:20.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/9d13a628672c5fa3a77c970d3612813c/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:30:13-43
+245            android:exported="false" >
+245-->[com.google.firebase:firebase-messaging:20.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/9d13a628672c5fa3a77c970d3612813c/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:31:13-37
+246            <intent-filter android:priority="-500" >
+246-->[:firebase_messaging] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:29
+247                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+247-->[:firebase_messaging] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-78
+247-->[:firebase_messaging] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:25-75
+248            </intent-filter>
+249        </service>
+250
+251        <activity
+251-->[:flutter_braintree] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/flutter_braintree/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-11:20
+252            android:name="com.example.flutter_braintree.FlutterBraintreeCustom"
+252-->[:flutter_braintree] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/flutter_braintree/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-80
+253            android:theme="@style/bt_transparent_activity" >
+253-->[:flutter_braintree] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/flutter_braintree/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-59
+254        </activity>
+255
+256        <provider
+256-->[:image_picker] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-19:20
+257            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+257-->[:image_picker] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-82
+258            android:authorities="com.chakula.app.flutter.image_provider"
+258-->[:image_picker] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-74
+259            android:exported="false"
+259-->[:image_picker] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-37
+260            android:grantUriPermissions="true" >
+260-->[:image_picker] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-47
+261            <meta-data
+261-->[:image_picker] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-18:75
+262                android:name="android.support.FILE_PROVIDER_PATHS"
+262-->[:image_picker] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+263                android:resource="@xml/flutter_image_picker_file_paths" />
+263-->[:image_picker] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:18:17-72
+264        </provider>
+265
+266        <activity
+266-->[:url_launcher] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/url_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-11:74
+267            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+267-->[:url_launcher] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/url_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-74
+268            android:exported="false"
+268-->[:url_launcher] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/url_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-37
+269            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+269-->[:url_launcher] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/url_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-71
+270        <activity
+270-->[:razorpay_flutter] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/razorpay_flutter/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-11:20
+271            android:name="com.razorpay.CheckoutActivity"
+271-->[:razorpay_flutter] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/razorpay_flutter/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-57
+272            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+272-->[com.razorpay:checkout:1.5.16] /home/charmides/.gradle/caches/transforms-2/files-2.1/6b4a3d93706efbfed1dfc1b207a16ec4/jetified-checkout-1.5.16/AndroidManifest.xml:20:13-83
+273            android:label="Razorpay Checkout"
+273-->[:razorpay_flutter] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/razorpay_flutter/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-46
+274            android:theme="@style/CheckoutTheme" >
+274-->[com.razorpay:checkout:1.5.16] /home/charmides/.gradle/caches/transforms-2/files-2.1/6b4a3d93706efbfed1dfc1b207a16ec4/jetified-checkout-1.5.16/AndroidManifest.xml:21:13-49
+275            <intent-filter>
+275-->[com.razorpay:checkout:1.5.16] /home/charmides/.gradle/caches/transforms-2/files-2.1/6b4a3d93706efbfed1dfc1b207a16ec4/jetified-checkout-1.5.16/AndroidManifest.xml:22:13-28:29
+276                <action android:name="android.intent.action.MAIN" />
+276-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:46:17-68
+276-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:46:25-66
+277
+278                <data
+278-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:57:17-73
+279                    android:host="rzp.io"
+280                    android:scheme="io.rzp" />
+280-->/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/android/app/src/main/AndroidManifest.xml:57:23-70
+281            </intent-filter>
+282        </activity>
+283
+284        <provider
+284-->[:share] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-16:20
+285            android:name="io.flutter.plugins.share.ShareFileProvider"
+285-->[:share] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-70
+286            android:authorities="com.chakula.app.flutter.share_provider"
+286-->[:share] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-74
+287            android:exported="false"
+287-->[:share] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-37
+288            android:grantUriPermissions="true" >
+288-->[:share] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-47
+289            <meta-data
+289-->[:image_picker] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-18:75
+290                android:name="android.support.FILE_PROVIDER_PATHS"
+290-->[:image_picker] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+291                android:resource="@xml/flutter_share_file_paths" />
+291-->[:image_picker] /home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/image_picker/intermediates/merged_manifest/release/AndroidManifest.xml:18:17-72
+292        </provider>
+293
+294        <receiver
+294-->[com.google.android.gms:play-services-measurement:17.6.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/ce2afd3541f63cd155d79bfe33d3069d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:29:9-33:20
+295            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+295-->[com.google.android.gms:play-services-measurement:17.6.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/ce2afd3541f63cd155d79bfe33d3069d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:30:13-85
+296            android:enabled="true"
+296-->[com.google.android.gms:play-services-measurement:17.6.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/ce2afd3541f63cd155d79bfe33d3069d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:31:13-35
+297            android:exported="false" >
+297-->[com.google.android.gms:play-services-measurement:17.6.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/ce2afd3541f63cd155d79bfe33d3069d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:32:13-37
+298        </receiver>
+299
+300        <service
+300-->[com.google.android.gms:play-services-measurement:17.6.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/ce2afd3541f63cd155d79bfe33d3069d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:35:9-38:40
+301            android:name="com.google.android.gms.measurement.AppMeasurementService"
+301-->[com.google.android.gms:play-services-measurement:17.6.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/ce2afd3541f63cd155d79bfe33d3069d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:36:13-84
+302            android:enabled="true"
+302-->[com.google.android.gms:play-services-measurement:17.6.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/ce2afd3541f63cd155d79bfe33d3069d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:37:13-35
+303            android:exported="false" />
+303-->[com.google.android.gms:play-services-measurement:17.6.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/ce2afd3541f63cd155d79bfe33d3069d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:38:13-37
+304        <service
+304-->[com.google.android.gms:play-services-measurement:17.6.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/ce2afd3541f63cd155d79bfe33d3069d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:39:9-43:72
+305            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+305-->[com.google.android.gms:play-services-measurement:17.6.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/ce2afd3541f63cd155d79bfe33d3069d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:40:13-87
+306            android:enabled="true"
+306-->[com.google.android.gms:play-services-measurement:17.6.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/ce2afd3541f63cd155d79bfe33d3069d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:41:13-35
+307            android:exported="false"
+307-->[com.google.android.gms:play-services-measurement:17.6.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/ce2afd3541f63cd155d79bfe33d3069d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:42:13-37
+308            android:permission="android.permission.BIND_JOB_SERVICE" />
+308-->[com.google.android.gms:play-services-measurement:17.6.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/ce2afd3541f63cd155d79bfe33d3069d/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:43:13-69
+309
+310        <activity
+310-->[com.braintreepayments.api:drop-in:4.1.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/9d5e8af8bd23ac792fd43cbe0fc51d56/jetified-drop-in-4.1.1/AndroidManifest.xml:18:9-20:64
+311            android:name="com.braintreepayments.api.dropin.DropInActivity"
+311-->[com.braintreepayments.api:drop-in:4.1.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/9d5e8af8bd23ac792fd43cbe0fc51d56/jetified-drop-in-4.1.1/AndroidManifest.xml:19:13-75
+312            android:theme="@style/bt_drop_in_activity_theme" />
+312-->[com.braintreepayments.api:drop-in:4.1.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/9d5e8af8bd23ac792fd43cbe0fc51d56/jetified-drop-in-4.1.1/AndroidManifest.xml:20:13-61
+313        <activity
+313-->[com.braintreepayments.api:drop-in:4.1.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/9d5e8af8bd23ac792fd43cbe0fc51d56/jetified-drop-in-4.1.1/AndroidManifest.xml:21:9-23:65
+314            android:name="com.braintreepayments.api.dropin.AddCardActivity"
+314-->[com.braintreepayments.api:drop-in:4.1.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/9d5e8af8bd23ac792fd43cbe0fc51d56/jetified-drop-in-4.1.1/AndroidManifest.xml:22:13-76
+315            android:theme="@style/bt_add_card_activity_theme" />
+315-->[com.braintreepayments.api:drop-in:4.1.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/9d5e8af8bd23ac792fd43cbe0fc51d56/jetified-drop-in-4.1.1/AndroidManifest.xml:23:13-62
+316        <activity
+316-->[com.braintreepayments.api:drop-in:4.1.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/9d5e8af8bd23ac792fd43cbe0fc51d56/jetified-drop-in-4.1.1/AndroidManifest.xml:24:9-26:70
+317            android:name="com.braintreepayments.api.dropin.VaultManagerActivity"
+317-->[com.braintreepayments.api:drop-in:4.1.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/9d5e8af8bd23ac792fd43cbe0fc51d56/jetified-drop-in-4.1.1/AndroidManifest.xml:25:13-81
+318            android:theme="@style/bt_vault_manager_activity_theme" />
+318-->[com.braintreepayments.api:drop-in:4.1.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/9d5e8af8bd23ac792fd43cbe0fc51d56/jetified-drop-in-4.1.1/AndroidManifest.xml:26:13-67
+319
+320        <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService" />
+320-->[com.braintreepayments.api:braintree:3.0.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/0f5c582446488e2d54b1c480a6311fa2/jetified-braintree-3.0.0/AndroidManifest.xml:15:9-93
+320-->[com.braintreepayments.api:braintree:3.0.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/0f5c582446488e2d54b1c480a6311fa2/jetified-braintree-3.0.0/AndroidManifest.xml:15:18-90
+321        <!--
+322         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+323         with the application context. This config is merged in with the host app's manifest,
+324         but there can only be one provider with the same authority activated at any given
+325         point; so if the end user has two or more different apps that use Facebook SDK, only the
+326         first one will be able to use the provider. To work around this problem, we use the
+327         following placeholder in the authority to identify each host application as if it was
+328         a completely different provider.
+329        -->
+330        <provider
+330-->[com.facebook.android:facebook-core:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/37b3940e377599890fb2d92881e6cdaa/jetified-facebook-core-5.5.1/AndroidManifest.xml:39:9-42:40
+331            android:name="com.facebook.internal.FacebookInitProvider"
+331-->[com.facebook.android:facebook-core:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/37b3940e377599890fb2d92881e6cdaa/jetified-facebook-core-5.5.1/AndroidManifest.xml:40:13-70
+332            android:authorities="com.chakula.app.FacebookInitProvider"
+332-->[com.facebook.android:facebook-core:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/37b3940e377599890fb2d92881e6cdaa/jetified-facebook-core-5.5.1/AndroidManifest.xml:41:13-72
+333            android:exported="false" />
+333-->[com.facebook.android:facebook-core:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/37b3940e377599890fb2d92881e6cdaa/jetified-facebook-core-5.5.1/AndroidManifest.xml:42:13-37
+334
+335        <receiver
+335-->[com.facebook.android:facebook-core:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/37b3940e377599890fb2d92881e6cdaa/jetified-facebook-core-5.5.1/AndroidManifest.xml:44:9-50:20
+336            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+336-->[com.facebook.android:facebook-core:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/37b3940e377599890fb2d92881e6cdaa/jetified-facebook-core-5.5.1/AndroidManifest.xml:45:13-86
+337            android:exported="false" >
+337-->[com.facebook.android:facebook-core:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/37b3940e377599890fb2d92881e6cdaa/jetified-facebook-core-5.5.1/AndroidManifest.xml:46:13-37
+338            <intent-filter>
+338-->[com.facebook.android:facebook-core:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/37b3940e377599890fb2d92881e6cdaa/jetified-facebook-core-5.5.1/AndroidManifest.xml:47:13-49:29
+339                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+339-->[com.facebook.android:facebook-core:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/37b3940e377599890fb2d92881e6cdaa/jetified-facebook-core-5.5.1/AndroidManifest.xml:48:17-95
+339-->[com.facebook.android:facebook-core:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/37b3940e377599890fb2d92881e6cdaa/jetified-facebook-core-5.5.1/AndroidManifest.xml:48:25-92
+340            </intent-filter>
+341        </receiver>
+342        <receiver
+342-->[com.facebook.android:facebook-core:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/37b3940e377599890fb2d92881e6cdaa/jetified-facebook-core-5.5.1/AndroidManifest.xml:51:9-58:20
+343            android:name="com.facebook.CampaignTrackingReceiver"
+343-->[com.facebook.android:facebook-core:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/37b3940e377599890fb2d92881e6cdaa/jetified-facebook-core-5.5.1/AndroidManifest.xml:52:13-65
+344            android:exported="true"
+344-->[com.facebook.android:facebook-core:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/37b3940e377599890fb2d92881e6cdaa/jetified-facebook-core-5.5.1/AndroidManifest.xml:53:13-36
+345            android:permission="android.permission.INSTALL_PACKAGES" >
+345-->[com.facebook.android:facebook-core:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/37b3940e377599890fb2d92881e6cdaa/jetified-facebook-core-5.5.1/AndroidManifest.xml:54:13-69
+346            <intent-filter>
+346-->[com.facebook.android:facebook-core:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/37b3940e377599890fb2d92881e6cdaa/jetified-facebook-core-5.5.1/AndroidManifest.xml:55:13-57:29
+347                <action android:name="com.android.vending.INSTALL_REFERRER" />
+347-->[com.facebook.android:facebook-core:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/37b3940e377599890fb2d92881e6cdaa/jetified-facebook-core-5.5.1/AndroidManifest.xml:56:17-79
+347-->[com.facebook.android:facebook-core:5.5.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/37b3940e377599890fb2d92881e6cdaa/jetified-facebook-core-5.5.1/AndroidManifest.xml:56:25-76
+348            </intent-filter>
+349        </receiver>
+350        <receiver
+350-->[com.google.firebase:firebase-iid:20.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/593cc34aec202285769680ac7fbcea6e/jetified-firebase-iid-20.3.0/AndroidManifest.xml:37:9-44:20
+351            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+351-->[com.google.firebase:firebase-iid:20.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/593cc34aec202285769680ac7fbcea6e/jetified-firebase-iid-20.3.0/AndroidManifest.xml:38:13-78
+352            android:exported="true"
+352-->[com.google.firebase:firebase-iid:20.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/593cc34aec202285769680ac7fbcea6e/jetified-firebase-iid-20.3.0/AndroidManifest.xml:39:13-36
+353            android:permission="com.google.android.c2dm.permission.SEND" >
+353-->[com.google.firebase:firebase-iid:20.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/593cc34aec202285769680ac7fbcea6e/jetified-firebase-iid-20.3.0/AndroidManifest.xml:40:13-73
+354            <intent-filter>
+354-->[com.google.firebase:firebase-iid:20.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/593cc34aec202285769680ac7fbcea6e/jetified-firebase-iid-20.3.0/AndroidManifest.xml:41:13-43:29
+355                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+355-->[com.google.firebase:firebase-iid:20.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/593cc34aec202285769680ac7fbcea6e/jetified-firebase-iid-20.3.0/AndroidManifest.xml:42:17-81
+355-->[com.google.firebase:firebase-iid:20.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/593cc34aec202285769680ac7fbcea6e/jetified-firebase-iid-20.3.0/AndroidManifest.xml:42:25-78
+356            </intent-filter>
+357        </receiver> <!-- Needs to be explicitly declared on P+ -->
+358        <uses-library
+358-->[com.google.android.gms:play-services-maps:17.0.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/cc09f8152627283dcbf92d4ae91e3623/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+359            android:name="org.apache.http.legacy"
+359-->[com.google.android.gms:play-services-maps:17.0.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/cc09f8152627283dcbf92d4ae91e3623/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+360            android:required="false" />
+360-->[com.google.android.gms:play-services-maps:17.0.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/cc09f8152627283dcbf92d4ae91e3623/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+361
+362        <activity
+362-->[com.google.android.gms:play-services-auth:17.0.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/1812be308ee84bd9bf742ca6f16221c0/jetified-play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+363            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+363-->[com.google.android.gms:play-services-auth:17.0.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/1812be308ee84bd9bf742ca6f16221c0/jetified-play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+364            android:excludeFromRecents="true"
+364-->[com.google.android.gms:play-services-auth:17.0.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/1812be308ee84bd9bf742ca6f16221c0/jetified-play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+365            android:exported="false"
+365-->[com.google.android.gms:play-services-auth:17.0.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/1812be308ee84bd9bf742ca6f16221c0/jetified-play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+366            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+366-->[com.google.android.gms:play-services-auth:17.0.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/1812be308ee84bd9bf742ca6f16221c0/jetified-play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+367        <!--
+368            Service handling Google Sign-In user revocation. For apps that do not integrate with
+369            Google Sign-In, this service will never be started.
+370        -->
+371        <service
+371-->[com.google.android.gms:play-services-auth:17.0.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/1812be308ee84bd9bf742ca6f16221c0/jetified-play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+372            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+372-->[com.google.android.gms:play-services-auth:17.0.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/1812be308ee84bd9bf742ca6f16221c0/jetified-play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+373            android:exported="true"
+373-->[com.google.android.gms:play-services-auth:17.0.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/1812be308ee84bd9bf742ca6f16221c0/jetified-play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+374            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+374-->[com.google.android.gms:play-services-auth:17.0.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/1812be308ee84bd9bf742ca6f16221c0/jetified-play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+375
+376        <activity
+376-->[com.google.firebase:firebase-auth:19.4.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/b0b0ea42056e33ed02dd5d3ecf791d5c/jetified-firebase-auth-19.4.0/AndroidManifest.xml:24:9-31:50
+377            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+377-->[com.google.firebase:firebase-auth:19.4.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/b0b0ea42056e33ed02dd5d3ecf791d5c/jetified-firebase-auth-19.4.0/AndroidManifest.xml:25:13-85
+378            android:excludeFromRecents="true"
+378-->[com.google.firebase:firebase-auth:19.4.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/b0b0ea42056e33ed02dd5d3ecf791d5c/jetified-firebase-auth-19.4.0/AndroidManifest.xml:26:13-46
+379            android:exported="true"
+379-->[com.google.firebase:firebase-auth:19.4.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/b0b0ea42056e33ed02dd5d3ecf791d5c/jetified-firebase-auth-19.4.0/AndroidManifest.xml:27:13-36
+380            android:launchMode="singleTask"
+380-->[com.google.firebase:firebase-auth:19.4.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/b0b0ea42056e33ed02dd5d3ecf791d5c/jetified-firebase-auth-19.4.0/AndroidManifest.xml:28:13-44
+381            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+381-->[com.google.firebase:firebase-auth:19.4.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/b0b0ea42056e33ed02dd5d3ecf791d5c/jetified-firebase-auth-19.4.0/AndroidManifest.xml:29:13-102
+382            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+382-->[com.google.firebase:firebase-auth:19.4.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/b0b0ea42056e33ed02dd5d3ecf791d5c/jetified-firebase-auth-19.4.0/AndroidManifest.xml:30:13-72
+383        <activity
+383-->[com.google.android.gms:play-services-base:17.2.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/b66b5a3f5c10015b52dc46092588166b/jetified-play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
+384            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+384-->[com.google.android.gms:play-services-base:17.2.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/b66b5a3f5c10015b52dc46092588166b/jetified-play-services-base-17.2.1/AndroidManifest.xml:24:13-79
+385            android:exported="false"
+385-->[com.google.android.gms:play-services-base:17.2.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/b66b5a3f5c10015b52dc46092588166b/jetified-play-services-base-17.2.1/AndroidManifest.xml:25:13-37
+386            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+386-->[com.google.android.gms:play-services-base:17.2.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/b66b5a3f5c10015b52dc46092588166b/jetified-play-services-base-17.2.1/AndroidManifest.xml:26:13-72
+387
+388        <provider
+388-->[com.google.firebase:firebase-common:19.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/eeef5cbcb3f6e22f46f25fb59c55f104/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+389            android:name="com.google.firebase.provider.FirebaseInitProvider"
+389-->[com.google.firebase:firebase-common:19.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/eeef5cbcb3f6e22f46f25fb59c55f104/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+390            android:authorities="com.chakula.app.firebaseinitprovider"
+390-->[com.google.firebase:firebase-common:19.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/eeef5cbcb3f6e22f46f25fb59c55f104/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+391            android:exported="false"
+391-->[com.google.firebase:firebase-common:19.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/eeef5cbcb3f6e22f46f25fb59c55f104/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+392            android:initOrder="100" />
+392-->[com.google.firebase:firebase-common:19.3.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/eeef5cbcb3f6e22f46f25fb59c55f104/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+393
+394        <meta-data
+394-->[com.google.android.gms:play-services-basement:17.2.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/3f0e4eab0f509a83b0018692ee2fbd95/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
+395            android:name="com.google.android.gms.version"
+395-->[com.google.android.gms:play-services-basement:17.2.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/3f0e4eab0f509a83b0018692ee2fbd95/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58
+396            android:value="@integer/google_play_services_version" />
+396-->[com.google.android.gms:play-services-basement:17.2.1] /home/charmides/.gradle/caches/transforms-2/files-2.1/3f0e4eab0f509a83b0018692ee2fbd95/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
+397
+398        <service
+398-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/cb22fb10f088aed8849b89cc4219dd62/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+399            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+399-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/cb22fb10f088aed8849b89cc4219dd62/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+400            android:exported="false" >
+400-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/cb22fb10f088aed8849b89cc4219dd62/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+401            <meta-data
+401-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/cb22fb10f088aed8849b89cc4219dd62/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+402                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+402-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/cb22fb10f088aed8849b89cc4219dd62/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+403                android:value="cct" />
+403-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/cb22fb10f088aed8849b89cc4219dd62/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+404        </service>
+405        <service
+405-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/125e2bc016d71439912d6ba997f7a070/jetified-transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+406            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+406-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/125e2bc016d71439912d6ba997f7a070/jetified-transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+407            android:exported="false"
+407-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/125e2bc016d71439912d6ba997f7a070/jetified-transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+408            android:permission="android.permission.BIND_JOB_SERVICE" >
+408-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/125e2bc016d71439912d6ba997f7a070/jetified-transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+409        </service>
+410
+411        <receiver
+411-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/125e2bc016d71439912d6ba997f7a070/jetified-transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+412            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+412-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/125e2bc016d71439912d6ba997f7a070/jetified-transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+413            android:exported="false" />
+413-->[com.google.android.datatransport:transport-runtime:2.2.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/125e2bc016d71439912d6ba997f7a070/jetified-transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+414        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+414-->[com.razorpay:checkout:1.5.16] /home/charmides/.gradle/caches/transforms-2/files-2.1/6b4a3d93706efbfed1dfc1b207a16ec4/jetified-checkout-1.5.16/AndroidManifest.xml:12:9-16:20
+414-->[com.razorpay:checkout:1.5.16] /home/charmides/.gradle/caches/transforms-2/files-2.1/6b4a3d93706efbfed1dfc1b207a16ec4/jetified-checkout-1.5.16/AndroidManifest.xml:12:19-63
+415            <intent-filter>
+415-->[com.razorpay:checkout:1.5.16] /home/charmides/.gradle/caches/transforms-2/files-2.1/6b4a3d93706efbfed1dfc1b207a16ec4/jetified-checkout-1.5.16/AndroidManifest.xml:13:13-15:29
+416                <action android:name="rzp.device_token.share" />
+416-->[com.razorpay:checkout:1.5.16] /home/charmides/.gradle/caches/transforms-2/files-2.1/6b4a3d93706efbfed1dfc1b207a16ec4/jetified-checkout-1.5.16/AndroidManifest.xml:14:17-65
+416-->[com.razorpay:checkout:1.5.16] /home/charmides/.gradle/caches/transforms-2/files-2.1/6b4a3d93706efbfed1dfc1b207a16ec4/jetified-checkout-1.5.16/AndroidManifest.xml:14:25-62
+417            </intent-filter>
+418        </receiver>
+419
+420        <activity
+420-->[com.braintreepayments.api:google-payment:3.0.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/7393f3a10fe6219d7897dcee0b8b7202/jetified-google-payment-3.0.0/AndroidManifest.xml:12:9-14:62
+421            android:name="com.braintreepayments.api.GooglePaymentActivity"
+421-->[com.braintreepayments.api:google-payment:3.0.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/7393f3a10fe6219d7897dcee0b8b7202/jetified-google-payment-3.0.0/AndroidManifest.xml:13:13-75
+422            android:theme="@style/bt_transparent_activity" />
+422-->[com.braintreepayments.api:google-payment:3.0.0] /home/charmides/.gradle/caches/transforms-2/files-2.1/7393f3a10fe6219d7897dcee0b8b7202/jetified-google-payment-3.0.0/AndroidManifest.xml:14:13-59
+423    </application>
+424
+425</manifest>

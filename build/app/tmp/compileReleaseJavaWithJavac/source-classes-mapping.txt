@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/chakula/app/BuildConfig.java
+ com.chakula.app.BuildConfig

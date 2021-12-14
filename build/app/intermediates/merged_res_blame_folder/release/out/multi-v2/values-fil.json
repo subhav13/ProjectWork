@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-fil/values-fil.xml",
+            "map": [
+                {
+                    "source": "/home/charmides/.gradle/caches/transforms-2/files-2.1/ac599812ba924937054e3412e49a466c/jetified-play-services-wallet-18.0.0/res/values-fil/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "203",
+                        "endColumns": "107",
+                        "endOffsets": "310"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "111",
+                        "endOffsets": "162"
+                    }
+                }
+            ]
+        }
+    ]
+}

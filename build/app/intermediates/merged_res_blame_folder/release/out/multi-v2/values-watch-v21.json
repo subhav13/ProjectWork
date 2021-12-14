@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "/home/charmides/.gradle/caches/transforms-2/files-2.1/784421733151deabd8b9ba3e74863c4a/appcompat-1.0.2/res/values-watch-v21/values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

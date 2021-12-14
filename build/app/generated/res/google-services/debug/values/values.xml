@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">296285490996-irr9kqc7bopu81vsggro9nldr9kt7ak3.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">296285490996</string>
+    <string name="google_api_key" translatable="false">AIzaSyA39CfSWmpz15qiXrQIZaSuA4X3wWovAJ4</string>
+    <string name="google_app_id" translatable="false">1:296285490996:android:581dedc0892cfa73c31f61</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA39CfSWmpz15qiXrQIZaSuA4X3wWovAJ4</string>
+    <string name="google_storage_bucket" translatable="false">chakula-b8c24.appspot.com</string>
+    <string name="project_id" translatable="false">chakula-b8c24</string>
+</resources>

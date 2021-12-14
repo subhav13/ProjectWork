@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "296285490996",
+    "project_id": "chakula-b8c24",
+    "storage_bucket": "chakula-b8c24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296285490996:android:581dedc0892cfa73c31f61",
+        "android_client_info": {
+          "package_name": "com.chakula.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296285490996-irr9kqc7bopu81vsggro9nldr9kt7ak3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA39CfSWmpz15qiXrQIZaSuA4X3wWovAJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296285490996-irr9kqc7bopu81vsggro9nldr9kt7ak3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296285490996:android:2e5bd510b391d51dc31f61",
+        "android_client_info": {
+          "package_name": "com.chakula.delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296285490996-irr9kqc7bopu81vsggro9nldr9kt7ak3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA39CfSWmpz15qiXrQIZaSuA4X3wWovAJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296285490996-irr9kqc7bopu81vsggro9nldr9kt7ak3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296285490996:android:3efaa9c1be2b77e7c31f61",
+        "android_client_info": {
+          "package_name": "com.chakula.restaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296285490996-irr9kqc7bopu81vsggro9nldr9kt7ak3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA39CfSWmpz15qiXrQIZaSuA4X3wWovAJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296285490996-irr9kqc7bopu81vsggro9nldr9kt7ak3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

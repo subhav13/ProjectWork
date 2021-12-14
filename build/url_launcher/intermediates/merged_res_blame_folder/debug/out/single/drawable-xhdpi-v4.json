@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/url_launcher/intermediates/res/merged/debug/drawable-xhdpi-v4/notification_bg_normal.9.png",
+        "source": "/home/charmides/.gradle/caches/transforms-2/files-2.1/b9354eb8a286cc2056ccec19617cd827/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/url_launcher/intermediates/res/merged/debug/drawable-xhdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/home/charmides/.gradle/caches/transforms-2/files-2.1/b9354eb8a286cc2056ccec19617cd827/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/url_launcher/intermediates/res/merged/debug/drawable-xhdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/home/charmides/.gradle/caches/transforms-2/files-2.1/b9354eb8a286cc2056ccec19617cd827/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/url_launcher/intermediates/res/merged/debug/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/home/charmides/.gradle/caches/transforms-2/files-2.1/b9354eb8a286cc2056ccec19617cd827/core-1.1.0/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/charmides/Documents/Clients/Hamza/Laundry/l/customer_FZ/build/url_launcher/intermediates/res/merged/debug/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/home/charmides/.gradle/caches/transforms-2/files-2.1/b9354eb8a286cc2056ccec19617cd827/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    }
+]

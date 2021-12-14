@@ -1,0 +1,19 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutter_braintree" >
+4
+5    <uses-sdk android:minSdkVersion="21" />
+5-->/home/charmides/Programs/flutter_sdk/flutter_linux_1.20.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_braintree-1.1.0/android/src/main/AndroidManifest.xml
+6
+7    <application>
+7-->/home/charmides/Programs/flutter_sdk/flutter_linux_1.20.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_braintree-1.1.0/android/src/main/AndroidManifest.xml:5:5-9:19
+8        <activity
+8-->/home/charmides/Programs/flutter_sdk/flutter_linux_1.20.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_braintree-1.1.0/android/src/main/AndroidManifest.xml:6:9-8:20
+9            android:name="com.example.flutter_braintree.FlutterBraintreeCustom"
+9-->/home/charmides/Programs/flutter_sdk/flutter_linux_1.20.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_braintree-1.1.0/android/src/main/AndroidManifest.xml:6:19-57
+10            android:theme="@style/bt_transparent_activity" >
+10-->/home/charmides/Programs/flutter_sdk/flutter_linux_1.20.2-stable/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_braintree-1.1.0/android/src/main/AndroidManifest.xml:7:13-59
+11        </activity>
+12    </application>
+13
+14</manifest>
