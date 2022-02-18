@@ -385,7 +385,7 @@ class _DashboardAppState extends State<DashboardApp>
             ),
           ],
         ),
-        resizeToAvoidBottomPadding: false);
+        resizeToAvoidBottomInset: false);
   }
 }
 

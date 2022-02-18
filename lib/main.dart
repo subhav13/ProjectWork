@@ -71,7 +71,7 @@ Future<void> main() async {
             id: id, title: title, body: body, payload: payload));
       });
   var initializationSettings = InitializationSettings(
-      initializationSettingsAndroid, initializationSettingsIOS);
+      android: initializationSettingsAndroid, iOS: initializationSettingsIOS);
   await flutterLocalNotificationsPlugin.initialize(initializationSettings,
       onSelectNotification: (String payload) async {
     if (payload != null) {
@@ -137,11 +137,12 @@ class SplashState extends State<Splash> {
 
   Future<void> _showNotification(String title, String message) async {
     var androidPlatformChannelSpecifics = AndroidNotificationDetails(
-        'your channel id', 'your channel name', 'your channel description',
-        importance: Importance.Max, priority: Priority.High, ticker: 'ticker');
+        'your channel id', 'your channel name',
+        channelDescription: 'your channel description',
+        importance: Importance.max, priority: Priority.high, ticker: 'ticker');
     var iOSPlatformChannelSpecifics = IOSNotificationDetails();
     var platformChannelSpecifics = NotificationDetails(
-        androidPlatformChannelSpecifics, iOSPlatformChannelSpecifics);
+        android: androidPlatformChannelSpecifics, iOS: iOSPlatformChannelSpecifics);
     await flutterLocalNotificationsPlugin.show(
         0, '$title', '$message', platformChannelSpecifics,
         payload: 'item x');
@@ -162,51 +163,51 @@ class SplashState extends State<Splash> {
     }
   }
 
-  final FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
+  final FirebaseMessaging _firebaseMessaging = FirebaseMessaging.instance;
 
   @override
-  void initState() {
-    super.initState();
-    // FirebaseApp.initializeApp(this);
-    _requestIOSPermissions();
-    new Timer(new Duration(milliseconds: (Platform.isAndroid ? 2000 : 10000)),
-        () {
-
-      //todo remove
-      checkFirstSeen();
-    });
-
-    _firebaseMessaging.configure(
-      onMessage: (Map<String, dynamic> message) {
-        // initialise the plugin. app_icon needs to be a added as a drawable resource to the Android head project
-        // _notifier.notify('message', 'true');
-        final message1 = message['notification']['body'];
-        final title = message['notification']['title'];
-        print("Notification Message:$message1");
-        print("Notification Message:$message");
-        OrderScreen().updateOrder();
-        OrderStatusPage().getOrderStatus();
-        // if (Platform.isAndroid) {
-        // displayTostForNotification(message1);
-        _showNotification(title, message1);
-        // }
-        return;
-      },
-    );
-    _firebaseMessaging.requestNotificationPermissions(
-        const IosNotificationSettings(sound: true, badge: true, alert: true));
-    _firebaseMessaging.onIosSettingsRegistered
-        .listen((IosNotificationSettings settings) {
-      print("Settings registered: $settings");
-    });
-    _firebaseMessaging.getToken().then((String token) async {
-      assert(token != null);
-      print(token);
-      SharedManager.shared.token = token;
-      // SharedPreferences prefs = await SharedPreferences.getInstance();
-      // await prefs.setString(token,DefaultKeys.pushToken);
-    });
-  }
+  // void initState() {
+  //   super.initState();
+  //   // FirebaseApp.initializeApp(this);
+  //   _requestIOSPermissions();
+  //   new Timer(new Duration(milliseconds: (Platform.isAndroid ? 2000 : 10000)),
+  //       () {
+  //
+  //     //todo remove
+  //     checkFirstSeen();
+  //   });
+  //
+  //   _firebaseMessaging.app(
+  //     onMessage: (Map<String, dynamic> message) {
+  //       // initialise the plugin. app_icon needs to be a added as a drawable resource to the Android head project
+  //       // _notifier.notify('message', 'true');
+  //       final message1 = message['notification']['body'];
+  //       final title = message['notification']['title'];
+  //       print("Notification Message:$message1");
+  //       print("Notification Message:$message");
+  //       OrderScreen().updateOrder();
+  //       OrderStatusPage().getOrderStatus();
+  //       // if (Platform.isAndroid) {
+  //       // displayTostForNotification(message1);
+  //       _showNotification(title, message1);
+  //       // }
+  //       return;
+  //     },
+  //   );
+  //   _firebaseMessaging.requestNotificationPermissions(
+  //       const IosNotificationSettings(sound: true, badge: true, alert: true));
+  //   _firebaseMessaging.onIosSettingsRegistered
+  //       .listen((IosNotificationSettings settings) {
+  //     print("Settings registered: $settings");
+  //   });
+  //   _firebaseMessaging.getToken().then((String token) async {
+  //     assert(token != null);
+  //     print(token);
+  //     SharedManager.shared.token = token;
+  //     // SharedPreferences prefs = await SharedPreferences.getInstance();
+  //     // await prefs.setString(token,DefaultKeys.pushToken);
+  //   });
+  // }
 
   Future onSelectNotification(String payload) async {
     if (payload != null) {

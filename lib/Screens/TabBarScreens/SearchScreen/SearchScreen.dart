@@ -107,7 +107,7 @@ class _SearchScreenState extends State<SearchScreen> {
         ? searchResultBloc.fetchSearchResults(this.searchKeyWord)
         : new Text('');
     return new Scaffold(
-        resizeToAvoidBottomPadding: false,
+        resizeToAvoidBottomInset: false,
         appBar: new AppBar(
           centerTitle: true,
           backgroundColor: AppColor.themeColor,

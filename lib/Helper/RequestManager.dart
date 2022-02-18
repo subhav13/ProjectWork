@@ -709,7 +709,7 @@ class Requestmanager {
   Future<http.Response> _apiRequest(String url, Map jsonMap) async {
     var body = jsonEncode(jsonMap);
     var response = await http.post(
-      url,
+      Uri.parse(url),
       headers: {
         "Accept": "application/json",
         "content-type": "application/json",
@@ -723,7 +723,7 @@ class Requestmanager {
 
 //GET
 Future<http.Response> _apiRequestWithGet(String url) async {
-  var response = await http.get(url.toString());
+  var response = await http.get(Uri.parse(url));
   print(response.body);
   return response;
 }

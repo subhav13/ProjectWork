@@ -920,8 +920,6 @@ class _RestaurantDetailsState extends State<RestaurantDetails> {
             }
           }),
       floatingActionButton: SpeedDial(
-          marginRight: 18,
-          marginBottom: 20,
           animatedIcon: AnimatedIcons.menu_close,
           animatedIconTheme: IconThemeData(size: 20.0),
           // this is ignored if animatedIcon is non null

@@ -52,8 +52,11 @@ class _SignUpPageState extends State<SignUpPage> {
     switch (result.status) {
       case FacebookLoginStatus.loggedIn:
         final FacebookAccessToken accessToken = result.accessToken;
+        String url =  'https://graph.facebook.com/v2.12/me?fields=name'
+            ',first_name,last_name,email,picture&access_token=${accessToken.token}';
         var graphResponse = await http.get(
-            'https://graph.facebook.com/v2.12/me?fields=name,first_name,last_name,email,picture&access_token=${accessToken.token}');
+          Uri.parse(url)
+        );
         var profile = json.decode(graphResponse.body);
         var data = profile['picture']['data'];
         print("User Facebook Response:$profile");
@@ -281,7 +284,7 @@ class _SignUpPageState extends State<SignUpPage> {
     return Scaffold(
 //      backgroundColor:  Colors.indigo,
       key: _scaffoldKey,
-      resizeToAvoidBottomPadding: false,
+      resizeToAvoidBottomInset: false,
       body: Container(
         color: Colors.indigo.shade900,
         child: Column(

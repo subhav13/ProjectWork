@@ -2,6 +2,8 @@
 //  Generated file. Do not edit.
 //
 
+// clang-format off
+
 #import "GeneratedPluginRegistrant.h"
 
 #if __has_include(<firebase_auth/FLTFirebaseAuthPlugin.h>)
@@ -16,8 +18,8 @@
 @import firebase_core;
 #endif
 
-#if __has_include(<firebase_messaging/FirebaseMessagingPlugin.h>)
-#import <firebase_messaging/FirebaseMessagingPlugin.h>
+#if __has_include(<firebase_messaging/FLTFirebaseMessagingPlugin.h>)
+#import <firebase_messaging/FLTFirebaseMessagingPlugin.h>
 #else
 @import firebase_messaging;
 #endif
@@ -52,10 +54,10 @@
 @import geocoder;
 #endif
 
-#if __has_include(<geolocator/GeolocatorPlugin.h>)
-#import <geolocator/GeolocatorPlugin.h>
+#if __has_include(<geolocator_apple/GeolocatorPlugin.h>)
+#import <geolocator_apple/GeolocatorPlugin.h>
 #else
-@import geolocator;
+@import geolocator_apple;
 #endif
 
 #if __has_include(<google_maps_flutter/FLTGoogleMapsPlugin.h>)
@@ -82,10 +84,10 @@
 @import location;
 #endif
 
-#if __has_include(<location_permissions/LocationPermissionsPlugin.h>)
-#import <location_permissions/LocationPermissionsPlugin.h>
+#if __has_include(<package_info_plus/FLTPackageInfoPlusPlugin.h>)
+#import <package_info_plus/FLTPackageInfoPlusPlugin.h>
 #else
-@import location_permissions;
+@import package_info_plus;
 #endif
 
 #if __has_include(<razorpay_flutter/RazorpayFlutterPlugin.h>)
@@ -100,16 +102,10 @@
 @import share;
 #endif
 
-#if __has_include(<shared_preferences/SharedPreferencesPlugin.h>)
-#import <shared_preferences/SharedPreferencesPlugin.h>
+#if __has_include(<shared_preferences_ios/FLTSharedPreferencesPlugin.h>)
+#import <shared_preferences_ios/FLTSharedPreferencesPlugin.h>
 #else
-@import shared_preferences;
-#endif
-
-#if __has_include(<sms_otp_auto_verify/SmsOtpAutoVerifyPlugin.h>)
-#import <sms_otp_auto_verify/SmsOtpAutoVerifyPlugin.h>
-#else
-@import sms_otp_auto_verify;
+@import shared_preferences_ios;
 #endif
 
 #if __has_include(<stripe_payment/StripePaymentPlugin.h>)
@@ -118,10 +114,10 @@
 @import stripe_payment;
 #endif
 
-#if __has_include(<url_launcher/FLTURLLauncherPlugin.h>)
-#import <url_launcher/FLTURLLauncherPlugin.h>
+#if __has_include(<url_launcher_ios/FLTURLLauncherPlugin.h>)
+#import <url_launcher_ios/FLTURLLauncherPlugin.h>
 #else
-@import url_launcher;
+@import url_launcher_ios;
 #endif
 
 @implementation GeneratedPluginRegistrant
@@ -140,11 +136,10 @@
   [FLTGoogleSignInPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTGoogleSignInPlugin"]];
   [FLTImagePickerPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTImagePickerPlugin"]];
   [LocationPlugin registerWithRegistrar:[registry registrarForPlugin:@"LocationPlugin"]];
-  [LocationPermissionsPlugin registerWithRegistrar:[registry registrarForPlugin:@"LocationPermissionsPlugin"]];
+  [FLTPackageInfoPlusPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTPackageInfoPlusPlugin"]];
   [RazorpayFlutterPlugin registerWithRegistrar:[registry registrarForPlugin:@"RazorpayFlutterPlugin"]];
   [FLTSharePlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTSharePlugin"]];
   [FLTSharedPreferencesPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTSharedPreferencesPlugin"]];
-  [SmsOtpAutoVerifyPlugin registerWithRegistrar:[registry registrarForPlugin:@"SmsOtpAutoVerifyPlugin"]];
   [StripePaymentPlugin registerWithRegistrar:[registry registrarForPlugin:@"StripePaymentPlugin"]];
   [FLTURLLauncherPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTURLLauncherPlugin"]];
 }

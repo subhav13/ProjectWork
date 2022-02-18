@@ -39,7 +39,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
 
   _getImageStringFromUrl(String imageUrl) async {
     http.Response response = await http.get(
-      imageUrl,
+      Uri.parse(imageUrl),
     );
     this.imageString = base64.encode(response.bodyBytes);
     isImageAdded = true;

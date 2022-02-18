@@ -27,7 +27,7 @@ class BannerRestaurants extends StatelessWidget {
           aspectRatio: 1.0,
           enlargeCenterPage: false,
         ),
-        itemBuilder: (context, index) {
+        itemBuilder: (context, index, idx) {
           return new GestureDetector(
             onTap: () {
               // Navigator.of(context,rootNavigator: true).push(MaterialPageRoute(builder: (context)=>RestaurantDetails()));

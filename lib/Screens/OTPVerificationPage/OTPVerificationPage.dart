@@ -98,7 +98,7 @@ class _OTPVerificationPageState extends State<OTPVerificationPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomPadding: false,
+      resizeToAvoidBottomInset: false,
       key: _scaffoldkey,
       body: Container(
         color: AppColor.white,
@@ -125,17 +125,15 @@ class _OTPVerificationPageState extends State<OTPVerificationPage> {
                         // color: AppColor.grey[300],
                         ),
                     child: TextFieldPin(
-                      filled: true,
-                      filledColor: AppColor.themeColor,
+                      textController: AppColor.themeColor,
                       codeLength: _otpCodeLength,
-                      boxSize: 50,
-                      filledAfterTextChange: false,
+                      defaultBoxSize: 50,
                       textStyle: TextStyle(fontSize: 16),
-                      borderStyle: OutlineInputBorder(
+                      defaultDecoration: OutlineInputBorder(
                           borderSide: BorderSide.none,
                           borderRadius: BorderRadius.circular(28)),
-                      onOtpCallback: (code, isAutofill) =>
-                          _onOtpCallBack(code, isAutofill),
+                      // onOtpCallback: (code, isAutofill) =>
+                      //     _onOtpCallBack(code, isAutofill),
                     ),
                   ),
                   setHeight(50),
